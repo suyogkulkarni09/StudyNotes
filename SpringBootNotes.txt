@@ -1,0 +1,20 @@
+Application Context:
+		It is an Interface that creates a object without being created by programmer explicitely.
+getBeans():
+	This is method used to get the object without having to be created explicitely.
+	This method belong to a Interface called Application Context.
+
+SpringApplication :
+	This is a interface that has method run().
+	This interface Extends Application Context Interface.
+
+run():
+	This method runs Spring application created.
+	returns the object of Application Context.
+
+
+Annotations:
+@Component
+	This tells the Spring boot that it has to create the object of this class.
+@Autowired :
+	Used to create a object without having to create explicitely and without using getBean();

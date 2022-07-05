@@ -1,0 +1,22 @@
+JDBC :
+1. Import the package (import java.sql.*;)
+2. Load and register the driver.
+	2-->a) Loading the driver (Different for different Databases.)
+			for MYSQL driver is :
+				com.sql.jdbc.driver;
+	2-->b) Register  the Driver
+			class.forName("com.mysql.jdbc.driver");
+				forName() is a method of class names "class" for registering the driver with Java 
+3. Connecting or Establish the connection :
+		We need to instantiate Connection Interface. 
+4. Create the statement :
+	Statement objects are of three types :
+		1. Statement :
+				When you want to query a statement you use statement.
+		2. PreparedStatement :
+				When you want to query a predefined statement you use PrepareStatement.
+		3. CallableStatement :
+				When you want to execute the PLSQL i.e Procedural Language SQL you use callable object.
+5. Execute the Query.
+6. Process result.
+7. Close the connection with Database.
