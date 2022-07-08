@@ -1,19 +1,19 @@
-Bean Factory :
+** Bean Factory :
 	This is Interface that has getBean() method as its member method.
 This Interface has been implemented by XmlBeanFactory class (Deprecated) that has XML file as its parameter of the Constructor.
 
-Singleton :
+** Singleton :
 	When Scope of a bean is used as a singleton only the 
 one object is created and all other objects will have values as reference to this object.
 The attributes of that single object will have values recently updated by any object and 
 all objects will have same attribute value.
 By default the value of scope if not mentioned is found to be singleton.
 
-Prototype :
+** Prototype :
 	When scope of the object is used as the Prototype every time a user asks for a bean 
 i.e for object a new copy of the object is created.
 
-Setting default values to private property of bean :
+** Setting default values to private property of bean :
 	The Property tag of XML is used to provide the value to private attribute of the Class.
 1.You need to create a bean of a class.
 2.Use Property tag and use below mentioned attributes with it :
@@ -23,3 +23,10 @@ Setting default values to private property of bean :
 <property name="Name_of_var" value="Value_to_be_Assigned_As_default">
 </property>
 </bean>
+
+	Setting Default value as reference object:
+		In the xml file we need to specify the ref="id_name_of_class".
+
+
+
+
