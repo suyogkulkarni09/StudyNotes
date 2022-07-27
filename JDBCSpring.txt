@@ -1,0 +1,15 @@
+1.Create a database in MYSQL 
+2.Create a table.
+3.Create data entries to check if it works.
+4.Create a POJO class for taking value coming from database.
+5.Use all the fields names as variable names in that class, use getters 
+  and setters and constructors to create and initialise values.
+6.Create a Bean XML file for creating beans in same directory as Main file.
+7. Create a Bean of JdbcTemplate class (You don't need to create this class this is used internally.)
+Templates are used for data storage and use.
+8. JdbcTemplate has a property named dataSource which is Interface and has DriverManagerDataSource as its parent Implementation class.
+9. DriverManagerDataSource class has four properties that needs to be setted 
+   				1. DriverClassName (com.mysql.jdbc.Driver)
+				2. URL (jdbc:mysql://Localhost:3306/database_name)
+				3. Username (root)
+				4. Password (root)
