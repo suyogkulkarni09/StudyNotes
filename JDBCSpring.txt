@@ -13,3 +13,9 @@ Templates are used for data storage and use.
 				2. URL (jdbc:mysql://Localhost:3306/database_name)
 				3. Username (root)
 				4. Password (root)
+
+
+
+BeanPropertyRowMapper<classname>(class_name.class):
+			This argument in the qury function of JdbcTemplate 
+helps in mapping the values from rows of a table to class Property.
